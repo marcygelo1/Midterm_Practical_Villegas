@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcy Angelo Villegas | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <div class="loader-text">Loading<span class="loader-dots">...</span></div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-blob blob-3"></div>
+        <div class="bg-grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">MV</span>
+                <span class="logo-text">Marcy<span class="logo-highlight">Villegas</span></span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <span class="nav-num">01</span> Home
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <span class="nav-num">02</span> About
+                </a>
+                
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <span class="nav-num">04</span> Contact
+                </a>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for freelance work
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line">Hi, I'm <span class="gradient-text">Marcy Angelo Villegas</span></span>
+                <span class="title-line title-line-2">
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </span>
+            </h1>
+
+            <p class="hero-desc">
+                A passionate Computer Engineering student and creative developer crafting 
+                immersive digital experiences. I blend clean code with bold design 
+                to bring ideas to life.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#about" class="btn btn-primary magnetic-btn hero-btn-scroll">
+                    <span>About Me</span>
+                    <i class="fas fa-arrow-down btn-arrow"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline magnetic-btn hero-btn-scroll">
+                    <span>Let's Talk</span>
+                    <i class="fas fa-arrow-down btn-arrow"></i>
+                </a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="#" class="social-btn" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-btn" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-btn" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-btn" aria-label="Dribbble">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </div>
+        </div>
+
+        
+
+        <div class="scroll-hint">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header" data-reveal>
+                <span class="section-eyebrow">About Me</span>
+                <h2 class="section-title">Who I <span class="gradient-text">Am</span></h2>
+                <p class="section-subtitle">Get to know the person behind the code</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card about-story" data-reveal>
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="card-icon-wrap">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <h3>My Story</h3>
+                        <p>I'm a Computer Engineering student at Technological Institute of the Philippines with a passion for both hardware and software. My journey into engineering started when I built my first circuit at 18, and I've been fascinated by the intersection of electronics and code ever since. I believe technology should be both powerful and beautiful.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="section-header" data-reveal>
+                <span class="section-eyebrow">Get In Touch</span>
+                <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+                <p class="section-subtitle">Have a project in mind? I'd love to hear about it.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" data-reveal>
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat about tech.</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="cm-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="cm-details">
+                                    <span class="cm-label">Email</span>
+                                    <a href="mailto:mmamvillegas@tip.edu.ph" class="cm-value">mmamvillegas@tip.edu.ph</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="cm-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="cm-details">
+                                    <span class="cm-label">Phone</span>
+                                    <a href="tel:+639750871637" class="cm-value">+63 9750871637</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="cm-icon">
+                                    <i class="fas fa-location-dot"></i>
+                                </div>
+                                <div class="cm-details">
+                                    <span class="cm-label">Location</span>
+                                    <span class="cm-value">Cainta, Rizal</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <span class="cs-label">Follow me</span>
+                            <div class="cs-links">
+                                <a href="#" class="cs-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="cs-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="cs-link"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" class="cs-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-area" data-reveal>
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group floating-label">
+                                <input type="text" id="name" name="name" placeholder=" " required>
+                                <label for="name">Your Name</label>
+                                <i class="fas fa-user form-icon"></i>
+                                <span class="form-error">Please enter your name</span>
+                            </div>
+
+                            <div class="form-group floating-label">
+                                <input type="email" id="email" name="email" placeholder=" " required>
+                                <label for="email">Your Email</label>
+                                <i class="fas fa-envelope form-icon"></i>
+                                <span class="form-error">Please enter a valid email</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group floating-label">
+                            <input type="text" id="subject" name="subject" placeholder=" ">
+                            <label for="subject">Subject</label>
+                            <i class="fas fa-tag form-icon"></i>
+                        </div>
+
+                        <div class="form-group floating-label">
+                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                            <i class="fas fa-comment form-icon textarea-icon"></i>
+                            <span class="form-error">Please enter your message</span>
+                        </div>
+
+                        <button type="submit" class="submit-btn magnetic-btn" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader"><i class="fas fa-circle-notch fa-spin"></i></span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo">MV</span>
+                <p>Engineering the future, one circuit at a time.</p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Marcy Angelo Villegas. All rights reserved.</p>
+                <p>Designed & Built with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-icon"><i class="fas fa-check-circle"></i></div>
+        <div class="toast-content">
+            <span class="toast-title">Success!</span>
+            <span class="toast-message">Your message has been sent.</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
